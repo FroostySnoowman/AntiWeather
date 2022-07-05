@@ -1,6 +1,6 @@
 name: AntiWeather
 version: '${project.version}'
-main: com.froostysnoowman.test.Main
+main: com.froostysnoowman.aw.Main
 api-version: 1.16
 authors: [Someone]
 description: AntiWeather Plugin
