@@ -1,0 +1,22 @@
+########################################################
+## GLOBAL CONFIG
+########################################################
+
+# Set the prefix
+prefix-message: "&6&lSERVER &8&l>>"
+
+non-player-message: "&cYou need to be a player to execute this command."
+
+invalid-player-message: "&cInvalid player!"
+
+no-permission-message: "&cYou don't have the &e\"%permission%\" &cpermission to use this command!"
+
+########################################################
+## FLY COMMAND
+########################################################
+
+fly-enabled-message: "&aYour flight has been enabled!"
+fly-disabled-message: "&bYour flight has been disabled!"
+
+fly-enabled-other-message: "&aYou enabled &e%target%&a's flight!"
+fly-disabled-other-message: "&bYou disabled &e%target%&a's flight!"

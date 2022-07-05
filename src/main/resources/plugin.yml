@@ -1,0 +1,11 @@
+name: AntiWeather
+version: '${project.version}'
+main: com.froostysnoowman.test.Main
+api-version: 1.16
+authors: [Someone]
+description: AntiWeather Plugin
+website: www.spigotmc.org
+commands:
+  fly:
+    description: Toggle your flight
+    usage: /<command>
