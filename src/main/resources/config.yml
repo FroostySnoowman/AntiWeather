@@ -2,21 +2,32 @@
 ## GLOBAL CONFIG
 ########################################################
 
-# Set the prefix
+# %target% = Targeted player to the command.
+# %player% = Player that ran the command.
+# These placeholders are only valid in the places where they are by default.
+
+# Sets the prefix.
 prefix-message: "&6&lSERVER &8&l>>"
 
+# Message sent when someone besides for a player uses the command (console).
 non-player-message: "&cYou need to be a player to execute this command."
 
+# Message sent when the targeted player is invalid.
 invalid-player-message: "&cInvalid player!"
 
+# Message sent when the player doesn't have the necessary permissions to use a command.
 no-permission-message: "&cYou don't have the &e\"%permission%\" &cpermission to use this command!"
 
 ########################################################
 ## FLY COMMAND
 ########################################################
 
+# Message sent when your flight is enabled.
 fly-enabled-message: "&aYour flight has been enabled!"
+# Message sent when your flight is disabled.
 fly-disabled-message: "&bYour flight has been disabled!"
 
+# Message sent when you enable someone else's flight.
 fly-enabled-other-message: "&aYou enabled &e%target%&a's flight!"
+# Message sent when you disable someone else's flight.
 fly-disabled-other-message: "&bYou disabled &e%target%&a's flight!"
